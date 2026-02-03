@@ -1,8 +1,13 @@
 import React from 'react'
+import ProductTab from './Components/ProductTab'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <h2 className='HeaderOne'>Best Deals | Shop Now</h2>
+    <ProductTab />
+    </>
   )
 }
 
